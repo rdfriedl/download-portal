@@ -1,8 +1,9 @@
-FROM node:10
+FROM node:10.5-alpine
 
 WORKDIR /usr/src/app
 
 ENV PORT 8008
+ENV NODE_ENV production
 
 COPY package*.json ./
 RUN npm install

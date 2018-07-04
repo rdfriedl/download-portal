@@ -1,11 +1,11 @@
 {
   "name": "download-portal",
-  "version": "1.0.0",
-  "description": "download-portal",
+  "version": "0.1.0",
+  "description": "A really basic download portal",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-		"format": "prettier views/*.js include/*.js *.js"
+    "format": "prettier views/*.js include/*.js *.js"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,13 @@
   "devDependencies": {
     "nodemon": "^1.17.5",
     "prettier": "^1.13.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdfriedl/download-portal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rdfriedl/download-portal/issues"
+  },
+  "homepage": "https://github.com/rdfriedl/download-portal#readme"
 }
